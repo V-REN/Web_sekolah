@@ -15,27 +15,32 @@
     <div class="sidebar pure-u-1 pure-u-md-1-4">
         <div class="header">
             <h1 class="brand-title">SMKN 74 KONOHA</h1>
-            <h2 class="brand-tagline">burn you'r money</h2>
+            <h2 class="brand-tagline">burn your'e money</h2>
 
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a class="pure-button" href="http://purecss.io">provile</a>
+                        <a class="pure-button" href="#info">profile</a>
                     </li>
                     <li class="nav-item">
-                        <a class="pure-button" href="http://purecss.io">Sambutan</a>
+                        <a class="pure-button" href="#sambutan">Sambutan</a>
                     </li>
                     <li class="nav-item">
-                        <a class="pure-button" href="http://purecss.io">Branda</a>
+                        <a class="pure-button" href="#foto">Branda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="pure-button" href="http://yuilibrary.com">Jurusan</a>
+                        <a class="pure-button" href="#jurusan">Jurusan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="pure-button" href="login.php">login</a>
                     </li>
                     
                 </ul>
             </nav>
         </div>
     </div>
+
+    
 
     <div class="content pure-u-1 pure-u-md-3-4">
         <div>
@@ -47,7 +52,7 @@
                 <section class="post">
                     <header class="post-header">
 
-                        <h2 class="post-title">informasi</h2>
+                        <h2 class="post-title" id="info">informasi</h2>
 
                         <p class="post-meta">
                             By <a href="#" class="post-author">Tilo Mitra</a> under <a class="post-category post-category-design" href="#">CSS</a> <a class="post-category post-category-pure" href="#">Pure</a>
@@ -68,7 +73,7 @@
                 <section class="post">
                     <header class="post-header">
 
-                        <h2 class="post-title">Jurusan</h2>
+                        <h2 class="post-title" id="jurusan">Jurusan</h2>
 
                         <p class="post-meta">
                             By <a class="post-author" href="#">Eric Ferraiuolo</a> under <a class="post-category post-category-js" href="#">JavaScript</a>
@@ -81,12 +86,73 @@
                             di bawah ini tabel infomasi nya
                         </p>
                     </div>
+                    <style>
+                    table {
+                         font-family: arial, sans-serif;
+                         border-collapse: collapse;
+                         width: 100%;
+                    } 
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>List jurusan</h2>
+
+<table>
+  <tr style="background-color: #7FFFD4">
+    <th>Jurusan</th>
+    <th>Guru</th>
+    <th>Biaya pendaftaran</th>
+  </tr>
+  <tr>
+    <td>pengolahan cakra</td>
+    <td>Maria Anders</td>
+    <td>2.000.000</td>
+  </tr>
+  <tr>
+    <td>Membaca skroll</td>
+    <td>Francisco Chang</td>
+    <td>1.000.000</td>
+  </tr>
+  <tr>
+    <td>menyegel biju</td>
+    <td>Roland Mendel</td>
+    <td>10.000.000</td>
+  </tr>
+  <tr>
+    <td>jurus terlarang</td>
+    <td>Helen Bennett</td>
+    <td>100.000.000</td>
+  </tr>
+  <tr>
+    <td>kelas anbu</td>
+    <td>Yoshi Tannamuri</td>
+    <td>10.000.000</td>
+  </tr>
+  <tr>
+    <td>medis</td>
+    <td>Giovanni Rovelli</td>
+    <td>12.000.000</td>
+  </tr>
+</table>
+
+
                 </section>
 
                 <section class="post">
                     <header class="post-header">
 
-                        <h2 class="post-title">Dokumentasi sekolah kami</h2>
+                        <h2 class="post-title" id="foto">Dokumentasi sekolah kami</h2>
 
                         <p class="post-meta">
                             By <a class="post-author" href="#">Reid Burke</a> under <a class="post-category" href="#">Uncategorized</a>
@@ -126,7 +192,7 @@
                     <header class="post-header">
                         
 
-                        <h2 class="post-title">sambutan</h2>
+                        <h2 class="post-title" id="sambutan">sambutan</h2>
 
                         <p class="post-meta">
                             By <a class="post-author" href="#">Andrew Wooldridge</a> under <a class="post-category post-category-yui" href="#">YUI</a>

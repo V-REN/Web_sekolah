@@ -8,7 +8,7 @@
 	<br/>
 	<!-- cek pesan notifikasi -->
 	<?php
-	require_once('koneksilogin.php');
+	require_once('KONEKSI.php');
 
 	?>
 	<?php 
@@ -24,7 +24,7 @@
 	?>
 	<br/>
 	<br/>
-	<form method="post" action="cek_login.php">
+	<form method="post" action="my new web.html">
 		<table>
 			<tr>
 				<td>Username</td>
